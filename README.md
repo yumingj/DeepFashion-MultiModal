@@ -1,7 +1,7 @@
 # DeepFashion-MultiModal
 
-**Text2Human: Text-Driven Controllable Human Image Generation**
-[Yuming Jiang](https://yumingj.github.io/), [Shuai Yang](https://williamyang1991.github.io/), [Haonan Qiu](http://haonanqiu.com/), [Wayne Wu](https://dblp.org/pid/50/8731.html), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) and [Ziwei Liu](https://liuziwei7.github.io/)
+**Text2Human: Text-Driven Controllable Human Image Generation** </br>
+[Yuming Jiang](https://yumingj.github.io/), [Shuai Yang](https://williamyang1991.github.io/), [Haonan Qiu](http://haonanqiu.com/), [Wayne Wu](https://dblp.org/pid/50/8731.html), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) and [Ziwei Liu](https://liuziwei7.github.io/) </br>
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH), 2022.
 
 From [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affliated with S-Lab, Nanyang Technological University and SenseTime Research.
@@ -55,7 +55,7 @@ segm = Image.open(f)
 segm = np.array(segm) # shape: [750, 1101]
 ```
 
-# Keypoints
+## Keypoints
 * For each human image, we provide 21 keypoints. The keypoints are defined as follows:
 
 <img src="./assets/keypoints_definition.png" width="20%">
@@ -72,10 +72,10 @@ segm = np.array(segm) # shape: [750, 1101]
 ```
 &ensp; If the keypoint is visible, the value is 0. If the keypoint is present but hidden by other parts, the value is 1. If the keypoint is not present, the value is 2.
 
-# DensePose
+## DensePose
 * We extract DensePose using this [repo](https://github.com/facebookresearch/DensePose). Please refer to this repo for more details.
 
-# Labels
+## Labels
 * The definitions of shape annotations:
 ```
   0. sleeve length: 0 sleeveless, 1 short-sleeve, 2 medium-sleeve, 3 long-sleeve, 4 not long-sleeve, 5 NA
@@ -127,20 +127,20 @@ segm = np.array(segm) # shape: [750, 1101]
 * (SIGGRAPH 2022) **Text2Human: Text-Driven Controllable Human Image Generation**, Yuming Jiang et al. [[Paper](xxx)], [[Code](xxx)]
 * (arXiv 2022) **StyleGAN-Human: A Data-Centric Odyssey of Human Generation**, Jianglin Fu et al. [[Paper](https://arxiv.org/pdf/2204.11823.pdf)], [[Code](https://github.com/stylegan-human/StyleGAN-Human)], [[Project Page](https://stylegan-human.github.io/)]
 
-# Related Datasets
-* **CelebA-Dialog** ⇒ [[Website](http://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html)]
-CelebA-Dialog is a large-scale visual-language face dataset. It has two properties:
-(1) Facial images are annotated with **rich fine-grained labels**, which classify one attribute into multiple degrees according to its semantic meaning.
+## Related Datasets
+* **CelebA-Dialog** ⇒ [[Website](http://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html)] </br>
+CelebA-Dialog is a large-scale visual-language face dataset. It has two properties: </br>
+(1) Facial images are annotated with **rich fine-grained labels**, which classify one attribute into multiple degrees according to its semantic meaning.</br>
 (2) Accompanied with each image, there are **captions describing** the attributes and a **user request sample**.
   * **Detailed information (Images & Text Descriptions):**
     * Number of identities: 10,177
     * Number of images: 202,599
     * 5 fine-grained attributes annotations per image: Bangs, Eyeglasses, Beard, Smiling, and Age
 
-* **DeepFashion** ⇒ [[Website](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)]
-DeepFashion is a clothes database, which has several appealing properties:
-(1) DeepFashion contains over **800,000** diverse fashion images ranging from well-posed shop images to unconstrained consumer photos, constituting the largest visual fashion analysis database.
-(2) DeepFashion is annotated with rich information of clothing items. Each image in this dataset is labeled with **50** categories, **1,000** descriptive attributes, bounding box and clothing landmarks.
+* **DeepFashion** ⇒ [[Website](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)] </br>
+DeepFashion is a clothes database, which has several appealing properties: </br>
+(1) DeepFashion contains over **800,000** diverse fashion images ranging from well-posed shop images to unconstrained consumer photos, constituting the largest visual fashion analysis database. </br>
+(2) DeepFashion is annotated with rich information of clothing items. Each image in this dataset is labeled with **50** categories, **1,000** descriptive attributes, bounding box and clothing landmarks. </br>
 (3) DeepFashion contains over **300,000** cross-pose/cross-domain image pairs.
 
 ## Citation
