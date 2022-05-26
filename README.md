@@ -16,12 +16,12 @@ From [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affliated with S-Lab, Nan
 5. Each image is **manually annotated** with attributes for both clothes shapes and textures.
 6. We provide a textual description for each image.
 
-DeepFashion-MultiModal can be applied to text-driven human image generation, text-guided human image manipulation, skeleton-guided human image generation, human pose estimation, human image captioning, multi-modal learning for human images, human attribute recognition, human parsing prediction, and etc. The dataset is proposed in [Text2Human](https://github.com/yumingj/Text2Human).
-
-## Overview of Annotations
 <img src="./assets/dataset_overview.png" width="100%">
 
-You can download the following links:
+DeepFashion-MultiModal can be applied to text-driven human image generation, text-guided human image manipulation, skeleton-guided human image generation, human pose estimation, human image captioning, multi-modal learning for human images, human attribute recognition, human parsing prediction, and etc. The dataset is proposed in [Text2Human](https://github.com/yumingj/Text2Human).
+
+## Download Links
+You can download using the following links:
 
 | Path | Size | Files | Format | Description
 | :--- | :---- | ----: | :----: | :----------
@@ -76,6 +76,7 @@ segm = np.array(segm) # shape: [750, 1101]
 * We extract DensePose using this [repo](https://github.com/facebookresearch/DensePose). Please refer to this repo for more details.
 
 ## Labels
+### Shape Annotations
 * The definitions of shape annotations:
 ```
   0. sleeve length: 0 sleeveless, 1 short-sleeve, 2 medium-sleeve, 3 long-sleeve, 4 not long-sleeve, 5 NA
@@ -99,6 +100,7 @@ segm = np.array(segm) # shape: [750, 1101]
   <img_name> <shape_0> <shape_1> ... <shape_11>
 ```
 
+### Fabric Annotations
 * The definitions of fabric annotations:
 ```
   0 denim, 1 cotton, 2 leather, 3 furry, 4 knitted, 5 chiffon, 6 other, 7 NA
@@ -111,6 +113,7 @@ segm = np.array(segm) # shape: [750, 1101]
   <img_name> <upper_fabric> <lower_fabric> <outer_fabric>
 ```
 
+### Color Annotations
 * The definitions of color annotations:
 ```
   0 floral, 1 graphic, 2 striped, 3 pure color, 4 lattice, 5 other, 6 color block, 7 NA
