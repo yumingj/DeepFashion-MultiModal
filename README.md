@@ -8,6 +8,8 @@ From [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affliated with S-Lab, Nan
 
 <img src="./assets/logo.png" width="96%">
 
+[**[Project Page]**](https://yumingj.github.io/projects/Text2Human.html) | [**[Paper (Coming soon)]**](xxx) | [**[Code]**](https://github.com/yumingj/Text2Human) | [**[Demo Video]**](https://youtu.be/yKh4VORA_E0)
+
 **DeepFashion-MultiModal** is a large-scale high-quality human dataset with rich multi-modal annotations. It has the following properties:
 1. It contains 44,096 high-resolution human images, including 12,701 full body human images.
 2. For each full body images, we **manually annotate** the human parsing labels of 24 classes.
