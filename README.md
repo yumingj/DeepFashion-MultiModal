@@ -27,13 +27,13 @@ You can download using the following links:
 
 | Path | Size | Files | Format | Description
 | :--- | :---- | ----: | :----: | :----------
-| [DeepFashion-MultiModal](xxxx) | ~20 GB | 420,002 | | main folder
-| &boxvr;&nbsp; [image](xxxx) | ~2 GB | 44,096 | JPG | images from DeepFashion of size 750&times;1101
-| &boxvr;&nbsp; [parsing](xxx) | 11 MB | 12,701 | PNG | manually annotated parsing labels
-| &boxvr;&nbsp; [keypoints](xxx) | 11 MB | 2 | TXT | manually annotated keypoints
-| &boxvr;&nbsp; [DensePose](xxx) | 11 MB | 44,096 | PNG | extracted DensePose
-| &boxvr;&nbsp; [labels](xxx) | 11 MB | 3 | TXT | three texts for shape, fabric, and color annotations
-| &boxvr;&nbsp; [textual descriptions](xxx) | 11 MB | 1 | JSON | textual descriptions for each image
+| [DeepFashion-MultiModal](https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2?usp=sharing) | ~12 GB | - | | main folder
+| &boxvr;&nbsp; [image](https://drive.google.com/file/d/1U2PljA7NE57jcSSzPs21ZurdIPXdYZtN/view?usp=sharing) | ~5.4 GB | 44,096 | JPG | images from DeepFashion of size 750&times;1101
+| &boxvr;&nbsp; [parsing](https://drive.google.com/file/d/1r-5t-VgDaAQidZLVgWtguaG7DvMoyUv9/view?usp=sharing) | ~90 MB | 12,701 | PNG | manually annotated parsing labels
+| &boxvr;&nbsp; [keypoints](https://drive.google.com/file/d/1ZXdOQI-d4zNhqRJdUEWSQvPwAtLdjovo/view?usp=sharing) | 956KB | 2 | TXT | manually annotated keypoints
+| &boxvr;&nbsp; [DensePose](https://drive.google.com/file/d/14uyqBUDDcL1VLaXm7qmqghdcbkFuQa1s/view?usp=sharing) | ~5.6 GB | 44,096 | PNG | extracted DensePose
+| &boxvr;&nbsp; [labels](https://drive.google.com/file/d/11WoM5ZFwWpVjrIvZajW0g8EmQCNKMAWH/view?usp=sharing) | 575KB | 3 | TXT | three texts for shape, fabric, and color annotations
+| &boxvr;&nbsp; [textual descriptions](https://drive.google.com/file/d/1d1TRm8UMcQhZCb6HpPo8l3OPEin4Ztk2/view?usp=sharing) | ~11 MB | 1 | JSON | textual descriptions for each image
 
 ## Human Parsing Label
 * Mask labels are defined as follows:
