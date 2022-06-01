@@ -148,6 +148,11 @@ DeepFashion is a clothes database, which has several appealing properties: </br>
 (2) DeepFashion is annotated with rich information of clothing items. Each image in this dataset is labeled with **50** categories, **1,000** descriptive attributes, bounding box and clothing landmarks. </br>
 (3) DeepFashion contains over **300,000** cross-pose/cross-domain image pairs.
 
+## Agreement
+* The DeepFashion-MultiModal dataset is available for non-commercial research purposes only.
+* You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+* You agree not to further copy, publish or distribute any portion of the DeepFashion-MultiModal dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+
 ## Citation
 
 If you find this dataset useful for your research and use it in your work, please consider cite the following papers:
