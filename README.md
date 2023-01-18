@@ -90,7 +90,7 @@ segm = np.array(segm) # shape: [750, 1101]
   6. wrist wearing: 0 no, 1 yes, 2 NA
   7. ring: 0 no, 1 yes, 2 NA
   8. waist accessories: 0 no, 1 belt, 2 have a clothing, 3 hidden, 4 NA
-  9. neckline: 0 V-shape, 1 square, 2 round, 4 standing, 5 lapel, 6 suspenders, 7 NA
+  9. neckline: 0 V-shape, 1 square, 2 round, 3 standing, 4 lapel, 5 suspenders, 6 NA
   10. outer clothing a cardigan?: 0 yes, 1 no, 2 NA
   11. upper clothing covering navel: 0 no, 1 yes, 2 NA
 
